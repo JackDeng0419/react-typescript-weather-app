@@ -1,0 +1,74 @@
+.city-card-small {
+    width: 370px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+    box-shadow: 0 0 10px 5px rgba(202, 184, 255, 0.242);
+    border-radius: 30px;
+}
+
+.city {
+    font-size: 28px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.weather-icon {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.current-temp {
+    font-size: 100px;
+    font-weight: lighter;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.current-temp .degree-mark {
+    border: 2px black solid;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    right: 1px;
+    top: -2px;
+}
+
+.weather {
+    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.min-max-temp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.min-max-temp .temp {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.min-max-temp > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.min-max-temp .min .text {
+    color: blueviolet;
+}
+
+.min-max-temp .max .text {
+    color: red;
+}

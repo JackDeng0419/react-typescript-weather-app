@@ -1,0 +1,33 @@
+.header {
+    position: relative;
+    background-color: white;
+    box-shadow: 0 4px 4px -2px rgb(224, 224, 224);
+    height: 90px;
+}
+
+.header > * {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-btn {
+    left: 20px;
+}
+
+.logo {
+    left: 100px;
+}
+
+.date {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.theme {
+    right: 30px;
+}

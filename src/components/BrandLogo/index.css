@@ -1,0 +1,17 @@
+.brand-logo {
+    display: block;
+    background-image: url('../../assets/images/brand-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 160px;
+    position: relative;
+}
+
+.brand-logo > p {
+    font-size: 24px;
+    font-weight: lighter;
+    position: absolute;
+    left: 60px;
+    line-height: 42px;
+}

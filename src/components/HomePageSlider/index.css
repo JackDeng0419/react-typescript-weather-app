@@ -1,0 +1,11 @@
+.slider {
+    /* background-color: blue; */
+}
+
+.slider > div {
+    padding: 20px 0;
+}
+
+div > * {
+    margin: auto;
+}

@@ -1,0 +1,53 @@
+.theme {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.theme .text {
+    line-height: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.toggle {
+    display: inline-block;
+    width: 50px;
+    margin: 0 5px;
+    position: relative;
+}
+
+.toggle .under-circle {
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    background-color: gray;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.toggle .circle {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 0, 0);
+    z-index: 99;
+    border-radius: 50%;
+    transition: 0.4s;
+    cursor: pointer;
+    left: 5px;
+}
+
+.toggle .light {
+    background-color: black;
+    /* transform: translateX(100%); */
+}
+
+.toggle .dark {
+    background-color: rgb(224, 224, 224);
+    transform: translateX(100%);
+}

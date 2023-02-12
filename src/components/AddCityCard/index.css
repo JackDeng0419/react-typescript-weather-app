@@ -1,0 +1,36 @@
+.add-city-card {
+    width: 370px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px 5px rgba(202, 184, 255, 0.242);
+    border-radius: 30px;
+    position: relative;
+}
+
+.add-city {
+    font-size: 28px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.plus-icon {
+    width: 50%;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+
+.city-view {
+    background-image: url('../../assets/images/City\ Illustration.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    bottom: 30px;
+}
