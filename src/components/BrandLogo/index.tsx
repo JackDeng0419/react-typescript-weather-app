@@ -8,8 +8,10 @@ type Props = {
 
 export const BrandLogo = (props: Props) => {
   return (
-    <a href='/' className={`${props.className} brand-logo`}>
-        <p>Minimis</p>
-    </a>
+    <div className={props.className}>
+        <a href='/' className={`brand-logo`}>
+            <p>Minimis</p>
+        </a>
+    </div>
   )
 }

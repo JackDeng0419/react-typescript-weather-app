@@ -1,13 +1,18 @@
 .add-city-card {
     width: 370px;
     height: 590px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
     padding: 30px 40px;
     box-shadow: 0 0 10px 5px rgba(202, 184, 255, 0.242);
     border-radius: 30px;
     position: relative;
+}
+
+.add-city-card > * {
+    margin: auto;
 }
 
 .add-city {
@@ -15,6 +20,7 @@
     font-weight: lighter;
     letter-spacing: 2px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .plus-icon {
